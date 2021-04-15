@@ -1,0 +1,10 @@
+{
+  "beers": [
+    {"name": "Lagunitas", "image_url": "https://cdn.shopify.com/s/files/1/0067/6030/0609/products/lagunitas-ipa-12oz-bottle_1600x.jpg?v=1611680909" },
+    {"name": "Odell IPA", "image_url": "https://www.theliquorstorejacksonhole.com/images/sites/theliquorstorejacksonhole/labels/w0650718cs_1.jpg" },
+    {"name": "Cloud Catcher Milkshake IPA", "image_url": "https://www.odellbrewing.com/wp-content/uploads/2015/08/IMG_7951.jpg" },
+    {"name": "Solarized IPA", "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.odellbrewing.com%2Fbeer%2Fsolarized%2F&psig=AOvVaw3ANefBOFFAFooer00HnR-R&ust=1618598885073000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCt5u_0gPACFQAAAAAdAAAAABAQ" },
+    {"name": "Golden Haze IPA", "image_url": "https://amendment21wines.com/wp-content/uploads/2020/09/AXXI_200927-7.jpg" },
+    {"name": "Grapefruit IPA", "image_url": "https://untappd.akamaized.net/photos/2018_09_10/168bc6e7065768b56c3f9e8296e53835_640x640.jpeg" }
+  ]
+}
