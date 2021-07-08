@@ -1,18 +1,47 @@
+import { Component } from 'react';
+
 import './App.css';
+const baseURL = "http://localhost:3000/beers"
 
-// to run the json server run => json-server --watch db.json
+class App extends Component {
+  
+  state = {
+    favorites: [],
+    ipas: [],
+  }
+  
+  componentDidMount(){
+    fetch(baseURL)
+      .then(response => response.json())
+      .then(ipas => this.setState({ ipas: ipas })) 
+  }
 
-//testing 123 to ensure github repository is working correctly. -BW
-
-//final test for github
-
-function App() {
-  return (
-    <div className="App">
-      <h1>IPA APP</h1>
-      <h2>Who needs API's when you have IPA's</h2>
-    </div>
-  );
+  createBeerList = () => {
+    return this.state.ipas.map(ipa => {
+      return <li>
+        <p>{ipa.name}</p>
+        <img src={ipa.image_url} />
+      </li>
+    })
+  }
+  
+  render(){
+    return (
+      <div className="App">
+        <h1>IPA APP</h1>
+        <h2>Who needs API's when you have IPA's</h2>
+        <ul>
+          Favorite IPAs
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul className="ipa-list">
+            {this.createBeerList()}
+        </ul>
+      </div>
+    );
+  }
 }
 
 export default App;
