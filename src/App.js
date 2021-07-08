@@ -2,6 +2,8 @@ import './App.css';
 
 // to run the json server run => json-server --watch db.json
 
+//testing 123 to ensure github repository is working correctly. -BW
+
 function App() {
   return (
     <div className="App">
