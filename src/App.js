@@ -4,6 +4,9 @@ import './App.css';
 
 //testing 123 to ensure github repository is working correctly. -BW
 
+//second test to ensure github repository is merging branches correctly. -BW
+
+
 function App() {
   return (
     <div className="App">
